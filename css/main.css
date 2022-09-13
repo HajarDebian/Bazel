@@ -1,0 +1,360 @@
+.specialColor{
+    font-size: 30;
+    color: rgb(51, 122, 183);
+}
+
+.navbar{
+    z-index: 10;
+    border-bottom: 1px solid rgb(168, 166, 166);
+}
+.vline{
+    border-left: 1px solid rgb(168, 166, 166);
+    height: 50px;
+}
+.navicons{
+    font-size: 15px;
+    margin-top: 8px;
+    color: black;
+    box-sizing: initial;
+    padding: 8px;
+    margin-left: 3px;
+}
+
+.placement{
+    padding-bottom: 200;
+}
+
+.slideTitle{
+    font-size: 90px;
+    padding-bottom: 10px;
+}
+.slidetxt{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.btn-primary{
+   background-color: rgb(0, 195, 218);
+   border: rgb(0, 195, 218);
+   font-size: 15px;
+}
+.btn{
+    width: 100;
+   height: 50;
+}
+.arrows{
+    font-size: 25;
+    color: white;
+}
+.parent{
+    position: absolute;
+}
+.fa-arrow-right{
+    position: relative;
+    left: 0;
+}
+.whotitle{
+    margin: auto;
+}
+.whotxtdiv{
+    margin: auto;
+    width: 630px;
+}
+.whotxt{
+    font-size: 20px;
+    color: white;
+}
+mark{
+    background-color: black;
+}
+.moves::after{
+    content: "|";
+    animation-name: moves;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes moves {
+    0%{content:"s|"}
+    2%{content:"so|"}
+    5%{content:"sof|"}
+    7%{content:"soft|"}
+    10%{content:"softw|"}
+    12%{content:"softwa|"}
+    15%{content:"softwar|"}
+    17%{content:"software|"}
+    20%{content:"softwares|"}
+    22%{content:"software|"}
+    25%{content:"softwar|"}
+    27%{content:"softwa|"}
+    30%{content:"sofw|"}
+    32%{content:"soft|"}
+    35%{content:"sof|"}
+    37%{content:"so|"}
+    40%{content:"s|"}
+    42%{content:"|"}
+    45%{content:"a|"}
+    47%{content:"ap|"}
+    50%{content:"app|"}
+    52%{content:"apps|"}
+    55%{content:"app|"}
+    57%{content:"ap|"}
+    60%{content:"a|"}
+    62%{content:"|"}
+    65%{content:"w|"}
+    67%{content:"we|"}
+    70%{content:"web|"}
+    72%{content:"webs|"}
+    75%{content:"websi|"}
+    77%{content:"websit|"}
+    80%{content:"website|"}
+    82%{content:"websites|"}
+    85%{content:"website|"}
+    87%{content:"websit|"}
+    90%{content:"websi|"}
+    92%{content:"webs|"}
+    94%{content:"web|"}
+    96%{content:"we|"}
+    97%{content:"we|"}
+    98%{content:"w|"}
+    99%{content:"|"}
+    100%{content:""}
+    
+}
+.whobtn{
+    font-size: 10px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.whobtn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.hbreak{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.backshadow{
+    color: rgb(206, 206, 206);
+    font-size: 60px;
+    z-index: -1;
+    position: relative;
+    top: 50;
+}
+
+.member{
+    overflow: hidden;
+    position: relative;
+}
+.member img{
+    transition: all 1s;
+    transition-delay: 1s;
+}
+.teamtrick{
+    background-color: rgb(0, 195, 218);
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    text-align: left;
+    transition: all 1s;
+    opacity: 0;
+}
+.teamicons{
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 20;
+    font-size: 14px;
+}
+.member:hover .teamtrick{
+    margin: 10px;
+    opacity: 1;
+    transform:scaleY(1);
+}
+.member .teamtrick h6, .member .teamtrick p{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.member .teamtrick h6{
+    margin-top: 170px;
+}
+.margin{
+    margin-top: 120px;
+}
+.whatcolor{
+    background-color: rgb(71, 70, 70); 
+}
+.what h3{
+    font-size: 14px;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.backshadow2{
+    color: rgb(155, 149, 149);
+    font-size: 80px;
+    position: relative;
+    top:55;
+    left: -15;
+    opacity: 0.5;
+}
+.whattitle{
+    color: white;
+}
+.whattxt{
+    margin-top: 20px;
+    color: white;
+}
+.spacing{
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.martop{
+    margin-top: 120px;
+}
+.martop h6{
+    color: white;
+    font-size: 16px;
+}
+.block{
+    display: block;
+    margin-bottom: 10px;
+}
+.grayish{
+    background-color: rgb(235, 233, 233);
+}
+.marginwithcolor{
+    padding-top: 120px;
+    background-color: rgb(235, 233, 233);
+}
+.pricecontainer{
+    text-align: center;
+}
+.backshadow3{
+    color: rgb(155, 149, 149);
+    font-size: 80px;
+    opacity: 0.5;
+}
+.pricetitle{
+    font-size: 40px;
+    position: relative;
+    top:95;
+    z-index: 4;
+}
+.respace{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.pad{
+    padding-left: 20px;
+}
+.part{
+    background-color: white;
+    padding: 20px;
+}
+.part h6{
+    color: gray;
+    margin: 25px;
+}
+.part h2{
+    font-size: 60px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.part p{
+    margin-left: 25px;
+}
+.brdr{
+    width: 200px;
+    height: 1px;
+    background-color: rgb(223, 219, 219);
+    margin: auto;
+}
+.tiny{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.blued{
+    background-color: rgb(0, 195, 218);
+    color: white;
+    font-size: 10;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+    border: none;
+}
+.whitend{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    overflow: visible;
+}
+.whitend h6{
+    color: gray;
+    margin: 10px;
+    font-size: 14px;
+}
+.img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    position: relative;
+    top: -50;
+    left: 43%;
+}
+.para{
+    margin-top: 20px;
+    color: gray;
+    margin: auto;
+    width: 500;
+}
+.arrow{
+    color: black;
+}
+ .backshadow4{
+    color: rgb(155, 149, 149);
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+.formtitle{
+    font-size: 40px;
+    position: relative;
+    top:95;
+    z-index: 9; 
+}
+
+.inputs{
+    border: 2px solid rgb(235, 232, 232);
+    height: 45px;
+    width: 450px;
+    margin-top: 5px;
+}
+.mtop{
+    margin-top: 20px;
+}
+textarea{
+    border: 2px solid rgb(235, 232, 232);
+    margin-top: 5px;
+    resize: none;
+}
+label{
+    font-weight: 500;
+}
+.formbtn{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 140px;
+
+} 
+
